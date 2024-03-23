@@ -88,4 +88,19 @@ main {
     }
 
   }
+
+  @media (max-width: 992px) {
+    height: auto;
+
+    .main-section {
+      display: none;
+    }
+
+    .form-section {
+      flex-grow: 1;
+      padding: 32px 16px;
+      height: max-content;
+    }
+  }
 }
+
